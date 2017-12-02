@@ -19,7 +19,7 @@ defmodule ListOps do
   end
 
   @spec filter(list, (any -> as_boolean(term))) :: list
-  def filter([head | tail], f) do
+  def filter(l, f) do
   end
 
   @type acc :: any
@@ -28,10 +28,10 @@ defmodule ListOps do
   end
 
   @spec append(list, list) :: list
-  def append([head | tail], b) do
+  def append(a, b) do
   end
 
   @spec concat([[any]]) :: [any]
-  def concat([head | tail]) do
+  def concat(ll) do
   end
 end

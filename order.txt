@@ -1,0 +1,89 @@
+elixir (Hello World)               /Users/misaka/exercism/elixir/hello-world
+elixir (Nucleotide Count)          /Users/misaka/exercism/elixir/nucleotide-count
+elixir (Secret Handshake)          /Users/misaka/exercism/elixir/secret-handshake
+elixir (Rotational Cipher)         /Users/misaka/exercism/elixir/rotational-cipher
+elixir (Strain)                    /Users/misaka/exercism/elixir/strain
+elixir (Protein Translation)       /Users/misaka/exercism/elixir/protein-translation
+elixir (Pig Latin)                 /Users/misaka/exercism/elixir/pig-latin
+elixir (Space Age)                 /Users/misaka/exercism/elixir/space-age
+elixir (Bob)                       /Users/misaka/exercism/elixir/bob
+elixir (Twelve Days)               /Users/misaka/exercism/elixir/twelve-days
+elixir (Word Count)                /Users/misaka/exercism/elixir/word-count
+elixir (Accumulate)                /Users/misaka/exercism/elixir/accumulate
+elixir (Acronym)                   /Users/misaka/exercism/elixir/acronym
+elixir (Series)                    /Users/misaka/exercism/elixir/series
+elixir (Raindrops)                 /Users/misaka/exercism/elixir/raindrops
+elixir (Run Length Encoding)       /Users/misaka/exercism/elixir/run-length-encoding
+elixir (Sublist)                   /Users/misaka/exercism/elixir/sublist
+elixir (Scrabble Score)            /Users/misaka/exercism/elixir/scrabble-score
+elixir (Sum Of Multiples)          /Users/misaka/exercism/elixir/sum-of-multiples
+elixir (Pangram)                   /Users/misaka/exercism/elixir/pangram
+elixir (Simple Linked List)        /Users/misaka/exercism/elixir/simple-linked-list
+elixir (Anagram)                   /Users/misaka/exercism/elixir/anagram
+elixir (Matrix)                    /Users/misaka/exercism/elixir/matrix
+elixir (Bracket Push)              /Users/misaka/exercism/elixir/bracket-push
+elixir (Rna Transcription)         /Users/misaka/exercism/elixir/rna-transcription
+elixir (Phone Number)              /Users/misaka/exercism/elixir/phone-number
+elixir (Nth Prime)                 /Users/misaka/exercism/elixir/nth-prime
+elixir (Roman Numerals)            /Users/misaka/exercism/elixir/roman-numerals
+elixir (All Your Base)             /Users/misaka/exercism/elixir/all-your-base
+elixir (Hamming)                   /Users/misaka/exercism/elixir/hamming
+elixir (Triangle)                  /Users/misaka/exercism/elixir/triangle
+elixir (Beer Song)                 /Users/misaka/exercism/elixir/beer-song
+elixir (Isogram)                   /Users/misaka/exercism/elixir/isogram
+elixir (Grade School)              /Users/misaka/exercism/elixir/grade-school
+elixir (Tournament)                /Users/misaka/exercism/elixir/tournament
+elixir (List Ops)                  /Users/misaka/exercism/elixir/list-ops
+elixir (Flatten Array)             /Users/misaka/exercism/elixir/flatten-array
+elixir (Leap)                      /Users/misaka/exercism/elixir/leap
+elixir (Kindergarten Garden)       /Users/misaka/exercism/elixir/kindergarten-garden
+elixir (Etl)                       /Users/misaka/exercism/elixir/etl
+elixir (Meetup)                    /Users/misaka/exercism/elixir/meetup
+elixir (Grains)                    /Users/misaka/exercism/elixir/grains
+elixir (Change)                    /Users/misaka/exercism/elixir/change
+elixir (Parallel Letter Frequency) /Users/misaka/exercism/elixir/parallel-letter-frequency
+elixir (Binary)                    /Users/misaka/exercism/elixir/binary
+elixir (Scale Generator)           /Users/misaka/exercism/elixir/scale-generator
+elixir (Luhn)                      /Users/misaka/exercism/elixir/luhn
+elixir (Markdown)                  /Users/misaka/exercism/elixir/markdown
+elixir (Gigasecond)                /Users/misaka/exercism/elixir/gigasecond
+elixir (Queen Attack)              /Users/misaka/exercism/elixir/queen-attack
+elixir (Pascals Triangle)          /Users/misaka/exercism/elixir/pascals-triangle
+elixir (Saddle Points)             /Users/misaka/exercism/elixir/saddle-points
+elixir (Hexadecimal)               /Users/misaka/exercism/elixir/hexadecimal
+elixir (Diamond)                   /Users/misaka/exercism/elixir/diamond
+elixir (Binary Search)             /Users/misaka/exercism/elixir/binary-search
+elixir (Binary Search Tree)        /Users/misaka/exercism/elixir/binary-search-tree
+elixir (Prime Factors)             /Users/misaka/exercism/elixir/prime-factors
+elixir (Perfect Numbers)           /Users/misaka/exercism/elixir/perfect-numbers
+elixir (Diffie Hellman)            /Users/misaka/exercism/elixir/diffie-hellman
+elixir (Sieve)                     /Users/misaka/exercism/elixir/sieve
+elixir (Wordy)                     /Users/misaka/exercism/elixir/wordy
+elixir (Robot Simulator)           /Users/misaka/exercism/elixir/robot-simulator
+elixir (Atbash Cipher)             /Users/misaka/exercism/elixir/atbash-cipher
+elixir (Simple Cipher)             /Users/misaka/exercism/elixir/simple-cipher
+elixir (Bank Account)              /Users/misaka/exercism/elixir/bank-account
+elixir (Largest Series Product)    /Users/misaka/exercism/elixir/largest-series-product
+elixir (Crypto Square)             /Users/misaka/exercism/elixir/crypto-square
+elixir (Pythagorean Triplet)       /Users/misaka/exercism/elixir/pythagorean-triplet
+elixir (Allergies)                 /Users/misaka/exercism/elixir/allergies
+elixir (Palindrome Products)       /Users/misaka/exercism/elixir/palindrome-products
+elixir (Rail Fence Cipher)         /Users/misaka/exercism/elixir/rail-fence-cipher
+elixir (Zipper)                    /Users/misaka/exercism/elixir/zipper
+elixir (Minesweeper)               /Users/misaka/exercism/elixir/minesweeper
+elixir (Connect)                   /Users/misaka/exercism/elixir/connect
+elixir (Difference Of Squares)     /Users/misaka/exercism/elixir/difference-of-squares
+elixir (Poker)                     /Users/misaka/exercism/elixir/poker
+elixir (Bowling)                   /Users/misaka/exercism/elixir/bowling
+elixir (Dot Dsl)                   /Users/misaka/exercism/elixir/dot-dsl
+elixir (Custom Set)                /Users/misaka/exercism/elixir/custom-set
+elixir (Forth)                     /Users/misaka/exercism/elixir/forth
+elixir (Clock)                     /Users/misaka/exercism/elixir/clock
+elixir (Grep)                      /Users/misaka/exercism/elixir/grep
+elixir (Say)                       /Users/misaka/exercism/elixir/say
+elixir (Ocr Numbers)               /Users/misaka/exercism/elixir/ocr-numbers
+elixir (Collatz Conjecture)        /Users/misaka/exercism/elixir/collatz-conjecture
+elixir (Dominoes)                  /Users/misaka/exercism/elixir/dominoes
+elixir (Transpose)                 /Users/misaka/exercism/elixir/transpose
+elixir (Isbn Verifier)             /Users/misaka/exercism/elixir/isbn-verifier
+elixir (Spiral Matrix)             /Users/misaka/exercism/elixir/spiral-matrix

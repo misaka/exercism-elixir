@@ -1,9 +1,9 @@
 defmodule PigLatin do
   defmacro vowels do
-    ["a", "e", "i", "o", "u", "yt", "xr"]
+    'aeiou'
   end
 
-  defmacro vowel_doubles do
+  defmacro vowel_2 do
     ["yt", "xr"]
   end
 
@@ -12,7 +12,7 @@ defmodule PigLatin do
   end
 
   def starts_with_consonant(word) do
-    !starts_with_vowel(word)
+    (to_charlist(word) |> Enum.at(0)) not in vowels
   end
 
   @doc """
@@ -42,31 +42,17 @@ defmodule PigLatin do
     []
   end
 
-  def translate_word(word) do
-    cond do
-      starts_with_vowel(word) ->
-        word <> "ay"
-      true ->
-        consonant = word |> collect_consonants
-
-        (word |> String.trim_leading(consonant)) <> consonant <> "ay"
-    end
+  def translate_word(<<letter>> <> tail) when letter in vowels do
+    <<letter>> <> tail <> "ay"
   end
 
-  def collect_consonants(<<letter>> <> _tail) when <<letter>> in vowels do
-    ""
+  def translate_word(<<letter1, letter2>> <> tail) when <<letter1, letter2>> in vowel_2 do
+    <<letter1, letter2>> <> tail <> "ay"
   end
-  def collect_consonants(<<letter1, letter2>> <> _tail) when <<letter1, letter2>> in vowel_doubles do
-    ""
-  end
-  def collect_consonants("qu" <> tail) do
-    "qu" <> collect_consonants(tail)
-  end
-  def collect_consonants(<<letter>> <> tail) do
-    <<letter>> <> collect_consonants(tail)
-  end
-  def collect_consonants("") do
-    ""
+
+  def translate_word(<<letter>> <> tail) when letter not in vowels do
+    
+    <<letter>> <> tail <> "ay"
   end
 end
 

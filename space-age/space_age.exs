@@ -7,7 +7,32 @@ defmodule SpaceAge do
   aged on 'planet'.
   """
   @spec age_on(planet, pos_integer) :: float
-  def age_on(planet, seconds) do
+  def age_on(:earth, seconds) do
+    earth_seconds_to_years(seconds)
+  end
+  def age_on(:mercury, seconds) do
+    earth_seconds_to_years(seconds) / 0.2408467
+  end
+  def age_on(:venus, seconds) do
+    earth_seconds_to_years(seconds) / 0.61519726
+  end
+  def age_on(:mars, seconds) do
+    earth_seconds_to_years(seconds) / 1.8808158
+  end
+  def age_on(:jupiter, seconds) do
+    earth_seconds_to_years(seconds) / 11.862615
+  end
+  def age_on(:saturn, seconds) do
+    earth_seconds_to_years(seconds) / 29.447498
+  end
+  def age_on(:uranus, seconds) do
+    earth_seconds_to_years(seconds) / 84.016846
+  end
+  def age_on(:neptune, seconds) do
+    earth_seconds_to_years(seconds) / 164.79132
+  end
 
+  def earth_seconds_to_years(age_in_seconds) do
+    age_in_seconds / 31557600
   end
 end

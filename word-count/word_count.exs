@@ -15,7 +15,8 @@ defmodule Words do
 
   def count_words([word | tail], counts) do
     word_lower = word |> String.downcase
-    {_prev_count, new_counts} = get_and_update_in(counts, [word_lower], &{&1, (&1 || 0) + 1})
+    {_, new_counts} =
+      counts |> Map.get_and_update(word_lower, &{&1, (&1 || 0) + 1})
     count_words(tail, new_counts)
   end
 

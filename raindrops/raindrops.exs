@@ -9,7 +9,33 @@ defmodule Raindrops do
     just pass the number's digits straight through.
   """
   @spec convert(pos_integer) :: String.t
-  def convert(number) do
+  def convert(number) when is_integer(number) do
+    factors = factorise(number, 1, :math.sqrt(number)) |> Enum.sort |> Enum.uniq
+    case convert(factors) do
+      ""         -> number |> to_string
+      plingplong -> plingplong
+    end
+  end
 
+  def convert([3 | tail]) do "Pling" <> convert(tail) end
+  def convert([5 | tail]) do "Plang" <> convert(tail) end
+  def convert([7 | tail]) do "Plong" <> convert(tail) end
+  def convert([factor | tail]) do
+    "" <> convert(tail)
+  end
+  def convert([]) do
+    ""
+  end
+
+  def factorise(_number, n, sqrt) when n > sqrt do
+    []
+  end
+
+  def factorise(number, n, sqrt) when rem(number, n) == 0 do
+    [n, trunc(number / n) | factorise(number, n+1, sqrt)]
+  end
+
+  def factorise(number, n, sqrt) do
+    factorise(number, n+1, sqrt)
   end
 end

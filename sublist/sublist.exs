@@ -14,32 +14,31 @@ defmodule Sublist do
   Returns whether the first list is a sublist or a superlist of the second list
   and if not whether it is equal or unequal to the second list.
   """
-  def compare(a, b) when length(a) == length(b) do
-    cond do
-      a === b -> :equal
-      true   -> :unequal
+  def compare(a, b) do
+    compare(a, b, :equal)
+  end
+
+  def compare(a, b, result) when length(a) == length(b) do
+    if a === b do
+      result
+    else
+      :unequal
     end
   end
 
-  def compare(a, b) when length(a) < length(b) do
-    cond do
-      b |> Enum.take(length(a)) === a -> :sublist
-      true ->
-        case compare(a, tl(b)) do
-          :equal -> :sublist
-          result -> result
-        end
+  def compare(a, b, _result) when length(a) < length(b) do
+    if b |> Enum.take(length(a)) === a do
+      :sublist
+    else
+      compare(a, tl(b), :sublist)
     end
   end
 
-  def compare(a, b) when length(a) > length(b) do
-    cond do
-      a |> Enum.take(length(b)) === b -> :superlist
-      true ->
-        case compare(tl(a), b) do
-          :equal -> :superlist
-          result -> result
-        end
+  def compare(a, b, _result) when length(a) > length(b) do
+    if a |> Enum.take(length(b)) === b do
+      :superlist
+    else
+      compare(tl(a), b, :superlist)
     end
   end
 
